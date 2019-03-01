@@ -5,9 +5,11 @@ class Chargement extends React.Component {
     RedirectionJavascript() {
     }
 
+    // onLoad={() => setTimeout(() => 3500)}
+
     render() {
         return (
-            <View style={design.main_container} onLoad={() => setTimeout(() => 3500)}>
+            <View style={design.main_container} >
                 <Image
                     source={require('../../Images/ako.png')}
                     style={design.image}

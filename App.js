@@ -1,12 +1,13 @@
 import React from 'react';
 
-import Accueil from './Components/Accueil'
+import Chargement from './Components/Chargement'
+import Compte from './Components/Compte'
 
 
 export default class App extends React.Component {
   render() {
     return (
-      // <Accueil />
+      <Compte />
     )
   }
 }
